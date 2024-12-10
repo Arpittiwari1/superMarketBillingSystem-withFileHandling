@@ -37,7 +37,7 @@ int getQuant(){
 
 };
 
-addItem(Bill b){
+void addItem(Bill b){
 bool close = false;
 while(!close){
 	int choice;
@@ -84,7 +84,7 @@ Sleep(3000);
 }
 }
 
-printBill(){
+int printBill(){
 	system("cls");
 int count = 0;
 bool close = false;
